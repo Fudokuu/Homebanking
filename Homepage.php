@@ -13,7 +13,7 @@
     <h1>Benvenuto nella tua Homepage </h1>
 
     
-    <?php require __DIR__ . '/../include/header.php'; ?>
+    <?php require 'header.php'; ?>
 
 
     <div class="container mt-5">

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrati</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="Sign-Up-Form">
+
+        <h1>Crea un nuovo Account</h1>
+
+        <hr>
+
+        <form action="processaRegistrazione.php" method="post">
+
+            <input type="text" id="Cognome" name="Cognome" placeholder="Cognome:" required>
+            <input type="text" id="Nome" name="Nome" placeholder="Nome:" required>
+
+            <br><br>
+            
+            <input type="text" id="CodiceFiscale" name="CodiceFiscale" placeholder="Codice Fiscale:" required>
+            
+            <br><br>
+
+            <label for="DataNascita">Data di Nascita:</label>
+            <br>
+            <input type="date" id="DataNascita" name="DataNascita" placeholder="Data Di Nascita:" required>
+
+            <br><br>
+
+            <input type="radio" id="F" name="Genere" value="F" required>Donna
+            <input type="radio" id="A" name="Genere" value="A" required>Altro    
+            <input type="radio" id="M" name="Genere" value="M" required>Uomo
+
+            <br><br>
+
+            <input type="email" id="Email" name="Email" placeholder="Email:" required>
+
+            <br><br>
+
+            <input type="password" id="Password" name="Password" placeholder="Password:" required>
+
+            <br><br>
+            <input type="password" id="Conferma_Password" name="Conferma_Password" placeholder="Conferma Password:" required>
+
+            <br><br>
+
+            <input type="submit" value="invia">
+        </form>
+
+        <div>
+            <h3>Hai gia' un account?<a href='login.html'>login</a></h3>
+        </div>
+    </div>
+    
+</body>
+</html>

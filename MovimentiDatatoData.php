@@ -1,9 +1,9 @@
 <?php
 
 
-require __DIR__ . '/../src/DbConnection.php';
+require 'DbConnection.php';
 
-require __DIR__ . '/../include/header.php';
+require 'header.php';
 
 // Recupera i dati passati tramite il metodo POST
 $numeroConto = $_SESSION['NumeroConto'];
